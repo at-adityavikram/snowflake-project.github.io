@@ -109,13 +109,19 @@ a:hover {
   margin-top:15px;
 }
 
+@media (min-width: 768px) {
+  .demo {
+    width:50% !important;
+  }
+}
+
 .demo {
-  width:90%;
+  width:85%;
   height:100%;
   border-radius:5.5px;
-  background-color:rgb(250,244,244);
+  background-color:rgb(252,254,255);
   padding:20px;
-  box-shadow:0px 16px 18px rgba(0,0,0,0.25);
+  box-shadow:0px 16px 18px rgba(0,0,0,0.35);
 }
 
 .vl {
@@ -123,5 +129,18 @@ a:hover {
   height:156px;
   width:0;
   margin-top:35px;
+}
+
+.form-head {
+  margin:25px auto 7px 5px;
+}
+
+.bar {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.card-heading {
+  font-size:36px;
 }
 
