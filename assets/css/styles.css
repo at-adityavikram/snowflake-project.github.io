@@ -25,7 +25,7 @@ body {
 }
 
 .landing {
-  margin:60px auto;
+  margin:48px auto;
   height:100vh;
 }
 
@@ -46,10 +46,30 @@ body {
 a {
   text-decoration:none;
   transition:0.25s;
+  color:#98bdc9;
 }
 
 a:hover {
-  color:#d6fafa;
+  color:#ffffff;
   text-decoration:none;
+}
+
+.heading {
+  font-size:56px;
+  margin-top:32px;
+  margin-bottom:0px;
+}
+
+@media (min-width: 300px) {
+  .desc {
+    width:95%;
+    margin:auto;
+  }
+}
+
+.desc {
+  width:70%;
+  margin:auto;
+  color:#d8d8d8;
 }
 
