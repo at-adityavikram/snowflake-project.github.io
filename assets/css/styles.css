@@ -1,0 +1,55 @@
+img {
+  width:128px;
+}
+
+body {
+  background-image:linear-gradient(#1a1d21, #24292E);
+}
+
+@media (min-width: 300px) {
+  .landing {
+    width:95%;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing {
+    width:85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .landing {
+    width:65%;
+  }
+}
+
+.landing {
+  margin:60px auto;
+  height:100vh;
+}
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nav-sec {
+  margin-left:22px;
+}
+
+.nav-bar {
+  margin-top:20px;
+}
+
+a {
+  text-decoration:none;
+  transition:0.25s;
+}
+
+a:hover {
+  color:rgba(255,255,255,0.49);
+  text-decoration:none;
+}
+
