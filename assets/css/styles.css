@@ -26,7 +26,7 @@ body {
 
 .landing {
   margin:48px auto;
-  height:100vh;
+  height:120%;
 }
 
 .center {
@@ -46,12 +46,14 @@ body {
 a {
   text-decoration:none;
   transition:0.25s;
-  color:#98bdc9;
+  color:#b7ddff;
+  border-bottom:0.7px solid rgba(115,185,250,0.3);
 }
 
 a:hover {
-  color:#ffffff;
   text-decoration:none;
+  border-bottom:0.75px solid #73b9fa;
+  color:#b7ddff;
 }
 
 .heading {
@@ -73,7 +75,7 @@ a:hover {
 }
 
 .desc {
-  color:#c5c5c5;
+  color:#9aa9b6;
   margin:auto;
 }
 
@@ -105,5 +107,21 @@ a:hover {
 
 .button-desc {
   margin-top:15px;
+}
+
+.demo {
+  width:90%;
+  height:100%;
+  border-radius:5.5px;
+  background-color:rgb(250,244,244);
+  padding:20px;
+  box-shadow:0px 16px 18px rgba(0,0,0,0.25);
+}
+
+.vl {
+  border-left:6px dotted #b7ddff;
+  height:156px;
+  width:0;
+  margin-top:35px;
 }
 
