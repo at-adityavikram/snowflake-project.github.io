@@ -77,11 +77,3 @@ a:hover {
   margin:auto;
 }
 
-button {
-  margin:50px auto;
-  background:linear-gradient(0deg, #004ca3 0%, #047bd3 100%);
-  height:56px;
-  width:256px;
-  font-size:48px;
-}
-
