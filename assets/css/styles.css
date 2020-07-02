@@ -257,3 +257,7 @@ footer {
   background-color:rgba(125,129,148,0.54);
 }
 
+::selection {
+  color:black;
+  background-color: blue;
+}
