@@ -1,5 +1,6 @@
 <svg width="307" height="250" viewBox="0 0 307 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="10.25" y="2.25" width="286.5" height="38.5" rx="4.75" fill="white" stroke="#BAE2FF" stroke-width="3.5"/>
+<rect x="12" y="4" width="283" height="35" rx="3" fill="white"/>
+<rect x="10.25" y="2.25" width="286.5" height="38.5" rx="4.75" stroke="#65BEFF" stroke-opacity="0.6" stroke-width="3.5"/>
 <g filter="url(#filter0_d)">
 <rect x="8" y="63" width="291" height="177" rx="8" fill="#F7F7F7"/>
 </g>
