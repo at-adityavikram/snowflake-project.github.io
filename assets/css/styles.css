@@ -182,7 +182,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .feature-desc {
-    width:60%;
+    width:45%;
     margin:0px auto;
   }
 }
@@ -196,9 +196,10 @@ a:hover {
 }
 
 .divider {
-  background-color:white;
-  margin:40px 20px;
+  background-color:rgba(255,255,255,0.54);
   opacity:0;
+  width:60%;
+  margin:55px auto;
 }
 
 .team {
@@ -220,5 +221,39 @@ a:hover {
 .feature-image {
   width:300px;
   margin-bottom:15px;
+}
+
+.github-button:hover {
+  background-color:rgba(255,255,255,0);
+  color:#0275d8;
+}
+
+.github-button:hover > #arrow {
+  transform:translateX(10px);
+  transition:0.2s;
+}
+
+.github-button {
+  height:75px;
+  width:300px;
+}
+
+footer {
+  height:150%;
+  margin-bottom:25px;
+}
+
+.footer-link-p {
+  margin-top:25px;
+  font-size:18px;
+}
+
+.footer-link {
+  margin:0px 8px;
+}
+
+.footer-hr {
+  width:40%;
+  background-color:rgba(125,129,148,0.54);
 }
 
