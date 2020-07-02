@@ -171,7 +171,7 @@ a:hover {
 }
 
 .feature-head {
-  font-size:28px;
+  font-size:26px;
 }
 
 @media (min-width: 300px) {
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .feature-image {
-  width:300px;
+  width:250px;
   margin-bottom:15px;
 }
 
