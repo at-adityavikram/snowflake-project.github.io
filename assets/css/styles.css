@@ -65,12 +65,14 @@ a:hover {
 @media (min-width: 300px) {
   .desc {
     width:90%;
+    font-size:15px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .desc {
     width:75%;
+    font-size:22px;
   }
 }
 
@@ -165,7 +167,7 @@ a:hover {
 }
 
 .row {
-  margin-top:55px;
+  margin-top:75px;
 }
 
 .feature-head {
@@ -217,6 +219,6 @@ a:hover {
 
 .feature-image {
   width:350px;
-  margin-bottom:5px;
+  margin-bottom:15px;
 }
 
