@@ -135,7 +135,7 @@ a:hover {
   border-left:6px dotted #b7ddff;
   height:156px;
   width:0;
-  margin-top:35px;
+  margin-top:45px;
 }
 
 .form-head {
@@ -149,5 +149,9 @@ a:hover {
 
 .go {
   background:linear-gradient(0deg, #005cc5 0%, #4498f7 100%);
+}
+
+.demo-desc {
+  font-size:18px;
 }
 
