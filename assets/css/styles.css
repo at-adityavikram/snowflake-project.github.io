@@ -169,6 +169,19 @@ a:hover {
 }
 
 .feature-head {
-  font-size:22px;
+  font-size:28px;
+}
+
+@media (min-width: 300px) {
+  .feature-desc {
+    width:100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-desc {
+    width:60%;
+    margin:0px auto;
+  }
 }
 
