@@ -4,6 +4,7 @@ img {
 
 body {
   background-image:linear-gradient(#1a1d21, #24292E);
+  font-family:'Inter', sans-serif;
 }
 
 @media (min-width: 300px) {
@@ -275,9 +276,5 @@ footer {
 
 .idk {
   margin-bottom:55px;
-}
-
-body {
-  font-family:'Inter', sans-serif;
 }
 
