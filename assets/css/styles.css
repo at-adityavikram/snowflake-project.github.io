@@ -267,3 +267,8 @@ footer {
   margin-bottom:45px;
 }
 
+::selection {
+  background-color:rgba(83,173,238,0.57);
+  color:rgb(51,51,51);
+}
+
