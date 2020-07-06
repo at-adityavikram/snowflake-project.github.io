@@ -59,7 +59,7 @@ a:hover {
 .heading {
   font-size:56px;
   margin-top:32px;
-  margin-bottom:55px;
+  margin-bottom:5px;
 }
 
 @media (min-width: 300px) {
