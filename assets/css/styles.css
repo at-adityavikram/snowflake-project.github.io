@@ -223,7 +223,7 @@ a:hover {
 
 .feature-image {
   width:90%;
-  margin:0px auto 20px auto;
+  margin:0px auto 10px auto;
 }
 
 .github-button:hover {
@@ -266,7 +266,7 @@ footer {
 }
 
 .feature-col {
-  margin-bottom:45px;
+  margin-bottom:30px;
 }
 
 ::selection {
