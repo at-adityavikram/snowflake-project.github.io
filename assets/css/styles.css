@@ -269,11 +269,15 @@ footer {
 }
 
 ::selection {
-  background-color:rgba(83,173,238,0.57);
+  background-color:rgba(83,173,238,0.37);
   color:rgb(51,51,51);
 }
 
 .idk {
   margin-bottom:55px;
+}
+
+body {
+  font-family:inter;
 }
 
