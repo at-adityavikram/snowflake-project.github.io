@@ -59,7 +59,7 @@ a:hover {
 .heading {
   font-size:56px;
   margin-top:32px;
-  margin-bottom:0px;
+  margin-bottom:55px;
 }
 
 @media (min-width: 300px) {
@@ -261,6 +261,7 @@ footer {
 
 .feature-row {
   margin-bottom:0px !important;
+  width:100%;
 }
 
 .feature-col {
