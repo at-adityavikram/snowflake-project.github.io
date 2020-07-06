@@ -98,13 +98,15 @@ a:hover {
   background:linear-gradient(0deg, #005cc5 0%, #4498f7 100%);
   height:60px;
   border:1px solid #353535;
-  transition:0.5s;
+  transition:0.25s;
 }
 
 .download:hover {
   background:linear-gradient(0deg, #00428e 0%, #1d77dd 100%);
   height:60px;
   border:1px solid #000000;
+  box-shadow:0px 10px 25px rgba(0,0,0,0.25);
+  transform:translateY(-3px);
 }
 
 .button-desc {
@@ -167,7 +169,7 @@ a:hover {
 }
 
 .row {
-  margin-top:75px;
+  /*margin-top:75px;*/
 }
 
 .feature-head {
@@ -257,7 +259,11 @@ footer {
   background-color:rgba(125,129,148,0.54);
 }
 
-::selection {
-  color:black;
-  background-color: blue;
+.feature-row {
+  margin-bottom:0px !important;
 }
+
+.feature-col {
+  margin-bottom:45px;
+}
+
