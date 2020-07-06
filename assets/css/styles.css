@@ -200,8 +200,8 @@ a:hover {
 
 .divider {
   background-color:rgba(255,255,255,0.54);
-  opacity:0;
-  width:60%;
+  opacity:0.2;
+  width:100%;
   margin:55px auto;
 }
 
@@ -224,6 +224,12 @@ a:hover {
 .feature-image {
   width:90%;
   margin:0px auto 10px auto;
+  transition:0.25s;
+}
+
+.feature-image:hover {
+  transform:translateY(-2px);
+  box-shadow:0px 5px 35px rgba(0,0,0,0.15);
 }
 
 .github-button:hover {
