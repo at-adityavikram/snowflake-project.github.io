@@ -1,5 +1,5 @@
 <svg width="400" height="301" viewBox="0 0 400 301" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="400" height="301" rx="7" fill="#4F575F"/>
+<rect width="400" height="301" rx="7" fill="#4F575F" fill-opacity="0.5"/>
 <rect x="59" y="32" width="283" height="35" rx="3" fill="white"/>
 <rect x="57.25" y="30.25" width="286.5" height="38.5" rx="4.75" stroke="#65BEFF" stroke-opacity="0.6" stroke-width="3.5"/>
 <g filter="url(#filter0_d)">
