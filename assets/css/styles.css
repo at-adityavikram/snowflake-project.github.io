@@ -80,6 +80,7 @@ a:hover {
 .desc {
   color:#9aa9b6;
   margin:auto;
+  font-size:18px;
 }
 
 @media (min-width: 300px) {
@@ -232,6 +233,11 @@ a:hover {
   box-shadow:0px 5px 35px rgba(0,0,0,0.15);
 }
 
+.github-button:active {
+  background-color:rgba(255,255,255,0);
+  color:#0275d8;
+}
+
 .github-button:hover {
   background-color:rgba(255,255,255,0);
   color:#0275d8;
@@ -282,5 +288,9 @@ footer {
 
 .idk {
   margin-bottom:55px;
+}
+
+.sg-font {
+  font-family:'Segoe UI';
 }
 
