@@ -293,3 +293,8 @@ footer {
   font-family:'Segoe UI';
 }
 
+@font-face {
+  font-family:Segoe UI;
+  src:url(../../assets/fonts/segoeui.ttf);
+}
+
