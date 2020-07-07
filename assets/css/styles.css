@@ -72,7 +72,7 @@ a:hover {
 
 @media (min-width: 576px) {
   .desc {
-    width:75%;
+    width:55%;
     font-size:22px;
   }
 }
@@ -80,7 +80,6 @@ a:hover {
 .desc {
   color:#9aa9b6;
   margin:auto;
-  font-size:22px;
 }
 
 @media (min-width: 300px) {
