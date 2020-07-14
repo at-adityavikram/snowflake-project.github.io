@@ -169,10 +169,16 @@ a:hover {
   margin:0px;
 }
 
+.mrgn-btm {
+  margin: 15px 0px;
+}
+
 .input-group {
   margin-bottom: 15px;
 }
-
+.pleasework {
+  display: inline;
+}
 .list-group {
   margin-top:20px;
 }
