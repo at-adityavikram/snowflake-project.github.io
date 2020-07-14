@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type= "text/javascript" src = "assets/js/tool.js"></script>
 </head>
 
 <body>
@@ -22,13 +23,13 @@
             <div class="demo center">
                 <p class="text-secondary form-head"><strong>Enter your Password</strong></p>
                 <form>
-                    <div class="input-group shadow"><input class="form-control" type="text">
-                        <div class="input-group-append"><button class="btn btn-primary go" type="button">Go!</button></div>
+                    <div class="input-group shadow"><input class="form-control" id = "password-input" type="text">
+                        <!-- <div class="input-group-append"><button class="btn btn-primary go" type="button">Go!</button></div> -->
                     </div>
                 </form>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <p class="demo-list"><strong>Years to Crack : </strong>5 years</p>
+                        <p class="demo-list"><strong>Time to Crack : </strong><span id = "demo-time">5 years</span></p>
                     </li>
                     <li class="list-group-item">
                         <p class="demo-list"><strong>How Common : </strong>1 in 5 people have a similar password</p>
