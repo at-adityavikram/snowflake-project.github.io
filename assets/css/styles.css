@@ -173,6 +173,10 @@ a:hover {
   margin: 15px 0px;
 }
 
+.form-check {
+  margin: 6px 2px;
+}
+
 .input-group {
   margin-bottom: 15px;
 }
