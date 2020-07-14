@@ -156,6 +156,25 @@ a:hover {
   margin-bottom:10px;
 }
 
+.password-cont {
+  padding: 8px;
+  border-radius:4px;
+  background-color:#e0e4e8;
+  width:500px;
+}
+
+#generate {
+  height: 80%;
+  margin-right: 10px;
+}
+
+#result {
+  color: #2c2c2c;
+  font-size: 18px;
+  margin: 10px 0px;
+  padding: 0;
+}
+
 .go {
   background:linear-gradient(0deg, #005cc5 0%, #4498f7 100%);
 }
