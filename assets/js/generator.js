@@ -28,6 +28,20 @@ document.addEventListener("DOMContentLoaded", function(){
 		);
 	});
 
+	clipboard.addEventListener('click', () => {
+		const textarea = document.createElement('textarea');
+		const password = resultEl.innerText;
+		
+		if(!password) { return; }
+		
+		textarea.value = password;
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand('copy');
+		textarea.remove();
+		alert('Password copied to clipboard');
+	});
+
 	function generatePassword(upper, lower, number, symbol, length){
 
 		let generatedPassword = '';
@@ -76,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	}
 
 	function getRandomSymbol() {
-		const symbols = '!@#$%^&*(){}[]=<>/,._-'
+		const symbols = '!@#$%^&*(){}[]=<>/,.?_-'
 		return symbols[Math.floor(Math.random() * symbols.length)];
 	}
 });
