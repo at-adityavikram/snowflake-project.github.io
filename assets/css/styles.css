@@ -335,3 +335,34 @@ footer {
   src:url(../../assets/fonts/segoeui.ttf);
 }
 
+.rsrcs {
+  margin-top:55px;
+  margin-bottom:40px;
+}
+
+.resource-div {
+  height:100%;
+  background-color:rgb(255,255,255);
+  opacity:0.5;
+  border-radius:7px;
+  padding:20px;
+}
+
+.about-team-img {
+  width:100%;
+  border-radius:5px;
+  margin-bottom:15px;
+}
+
+.about-team-button {
+  margin-right:10px;
+}
+
+.hover-thing:hover {
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+  transform: translateY(-5px);
+}
+
+.hover-thing {
+  transition: 0.25s;
+}
